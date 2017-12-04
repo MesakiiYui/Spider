@@ -10,8 +10,8 @@ def finish_crawl(user_id):
 
     # 当完成一个用户的信息爬取后调用该函数，将爬取状态改为1
     # 每一次循环都要访问source_weibo数据表中的user_id，
-    conn_check = MySQLdb.connect(host='202.121.197.87', user='root', passwd='!@QWaszx',
-                           port=3306, db='weibo', charset='utf8', use_unicode=True)
+    conn_check = MySQLdb.connect(host='#########', user='#########', passwd='#########',
+                           port=3306, db='#########', charset='utf8', use_unicode=True)
     cur = conn_check.cursor()
     cur.execute('SET NAMES utf8mb4')
     cur.execute("SET CHARACTER SET utf8mb4")

@@ -8,8 +8,8 @@ sys.setdefaultencoding( "utf-8" )
 def insert_to_mysql(weibo_list,comment_list,forward_list):
     print 'start insert'
     # user_id,primarykey,edit_time,content,weibo_url
-    conn = MySQLdb.connect(host='202.121.197.87', user='root', passwd='!@QWaszx',
-                           port=3306, db='weibo', charset='utf8', use_unicode=True)
+    conn = MySQLdb.connect(host='#########', user='#########', passwd='#########',
+                           port=3306, db='#########', charset='utf8', use_unicode=True)
     cur = conn.cursor()
     cur.execute('SET NAMES utf8mb4')
     cur.execute("SET CHARACTER SET utf8mb4")
